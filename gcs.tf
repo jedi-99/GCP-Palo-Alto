@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "sample_bucket" {
-  name          = "poc-bucket-102030"
+  name          = "poc-bucket-10203040"
   project       = var.project_id
   location      = var.region
   force_destroy = true
